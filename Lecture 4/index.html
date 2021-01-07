@@ -1,0 +1,49 @@
+<html>
+<head>
+    <title>Embedding Content</title>
+</head>
+<body>
+    <audio 
+        src="sample-audio.mp3"
+        autoplay
+        loop
+        controls
+    >
+    </audio>
+
+    <br>
+
+    <video 
+        src="sample-mp4-file.mp4"
+        controls
+        autoplay
+        loop
+        muted
+    ></video>
+
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/zSWdZVtXT7E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <br>
+    <h3>PDF from iframe</h3>
+    <iframe 
+        height="800px"
+        src="../Lecture 1/Web Development.pdf" frameborder="1">
+    </iframe>
+
+
+    <!-- Downloading pdf -->
+    <a href="../Lecture 1/Web Development.pdf">
+        Download pdf
+    </a>
+
+    <br>
+    <h3>PDF from embed</h3>
+    <embed 
+        src="../Lecture 1/Web Development.pdf" 
+        type="application/pdf"
+        width="400px"
+        height="600px"
+    >
+</body>
+</html>
