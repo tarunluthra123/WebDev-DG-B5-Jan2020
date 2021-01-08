@@ -1,0 +1,20 @@
+* {
+    /* Selects all elements in the HTML document */
+    font-size: 30px;
+}
+
+.box {
+    background-color: aqua;
+}
+
+div.box {
+    font-size: 40px;
+}
+
+span.box {
+    text-decoration: underline;
+}
+
+div, p {
+    color: brown;
+}

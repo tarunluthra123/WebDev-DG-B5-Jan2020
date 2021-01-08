@@ -1,0 +1,26 @@
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: cyan;
+}
+
+
+.box:hover {
+    background-color: orange;
+    height: 200px;
+    width: 200px;
+}
+
+.box:active { 
+    background-color: pink;
+    font-size: 100px;
+}
+
+
+input:focus {
+    font-size: 40px;
+}
+
+input:hover {
+    background-color: yellow;
+}

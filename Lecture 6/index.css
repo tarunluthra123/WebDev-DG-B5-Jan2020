@@ -1,0 +1,17 @@
+* {
+    font-size:30px;
+}
+
+.outer {
+    background-color: cyan;
+    height: 600px;
+}
+
+.inner {
+    background-color: green;
+    height: 300px;
+}
+
+div.outer .inner {
+    background-color: orange;
+}

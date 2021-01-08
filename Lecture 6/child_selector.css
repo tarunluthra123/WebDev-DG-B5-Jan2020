@@ -1,0 +1,21 @@
+span {
+    background-color: white;
+}
+
+div>span {
+    background-color: orange;
+    
+}
+
+
+div + p{
+    font-size: 40px;
+}
+
+div + span {
+    font-size: 30px;
+}
+
+p + p{
+    color:red;
+}
