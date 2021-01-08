@@ -1,0 +1,16 @@
+div {
+    background-color: aqua;
+    height: 200px;
+    font-size: 40px;
+    border-style: solid;
+    border-width: 2px;
+}
+
+body {
+    background-color: beige;
+}
+
+h2 {
+    color: green;
+    text-align: center;
+}

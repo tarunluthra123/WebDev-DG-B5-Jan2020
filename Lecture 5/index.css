@@ -1,0 +1,46 @@
+/* Element selector */
+div {
+    font-size: 40px;
+    color:black;
+}
+
+/* ID selector */
+#div1 {
+    background-color: burlywood;
+    height: 200px;
+}
+
+#div2 {
+    background-color: cyan;
+    height: 300px;
+}
+
+#div3 {
+    background-color: deeppink;
+    height: 100px;
+}
+
+
+/* Class selectors */
+.even {
+    color:firebrick;
+    font-size : 60px;
+}
+
+.first-two {
+    width: 400px;
+}
+
+
+
+#div5{
+    /* Div 5 - ID */
+    font-size:80px;
+    color:blue;
+}
+
+
+.five {
+    font-size:10px;
+    color:magenta;
+}
