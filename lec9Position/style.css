@@ -1,0 +1,20 @@
+div{
+    height: 50px;
+    width: 100px;
+    background-color: cyan;
+    /* position: relative;
+    left: -100px;
+    top:-100px */
+    /* position: absolute;
+    top: 200px;
+    left: 350px; */
+    /* position: fixed;
+    top: 50px;
+    left: 100px; */
+    /* position: sticky;
+    top: 30px;
+    left: 90px; */
+    position: static;
+    left: 200px;
+    top: 50px;
+}

@@ -1,0 +1,42 @@
+div{
+    height: 250px;
+    width: 350px;
+}
+body{
+    perspective: 800px;
+}
+#a{
+position: sticky;
+left: 80px;
+}
+#b{
+    position: sticky;
+    left: 180px;
+    }
+#c{
+        position: sticky;
+        left: 280px;
+        }
+.a,
+.b{
+    position: absolute;
+    backface-visibility: hidden;
+
+}
+.a{
+    background-color: darkgreen;
+    /* z-index: 15; */
+}
+.b{
+    background-color: darkorange;
+    /* transform: rotatey(90deg); */
+    transform: rotateY(180deg)
+    /* z-index: 12; */
+}
+.wrap{
+    transition: 2s;
+    transform-style: preserve-3d;
+}
+.wrap:hover{
+    transform: rotateY(180deg);
+}
