@@ -1,0 +1,62 @@
+div{
+    height: 250px;
+    width: 350px;
+}
+body{
+    perspective: 800px;
+    background-image: url('maintj.jpg');
+    background-repeat: repeat;
+}
+h4,p{
+    text-align: center;
+    color: white;
+}
+#a,#b,#c,#d{
+    z-index: 10;
+}
+#a{
+position: sticky;
+left: 100px;
+top: 10px;
+color: red;
+
+}
+
+#b{
+    position: sticky;
+    left: 300px;
+    top: 10px;
+    color: red;
+    }
+    #c{
+        position: sticky;
+        left: 500px;
+        top: 10px;
+        color: red;
+        }
+        #d{
+            position: sticky;
+            left: 700px;
+            top: 10px;
+            color: aqua;
+            }
+.a,
+.b{
+    position: absolute;
+    backface-visibility: hidden;
+}
+.a{
+  background-color: coral;  
+}
+.b{
+    background-color:  gray;
+    transform: rotateY(180deg);
+}
+.wrap{
+    transition: 2s;
+    transform-style: preserve-3d;
+    display: inline-block;
+}
+.wrap:hover{
+    transform: rotateY(180deg);
+}
