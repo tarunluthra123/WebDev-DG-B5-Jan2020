@@ -1,0 +1,35 @@
+ .progbar{
+    height: 100px;
+width: 700px;
+    background-color: red;
+    animation-name: anmi1;
+    animation-duration: 3s;
+    animation-iteration-count: 5;
+    /* animation-timing-function: ease-in; */
+    /* animation-timing-function: ease-out; */
+    animation-timing-function: ease-in-out;
+    /* animation-timing-function: cubic-bezier(1, 0.1 , 0.3, 1); */
+ animation-iteration-count: infinite;
+
+} 
+/* @keyframes anmi1{
+    from{
+        width: 0%
+
+    }
+    to{
+    width: 700px;
+    }
+} */
+@keyframes anmi1{
+    0%{
+        width: 0%;
+
+    }
+    50%,60%{
+        width: 40%;
+    }
+    100%{
+    width: 100%;
+    }
+}
