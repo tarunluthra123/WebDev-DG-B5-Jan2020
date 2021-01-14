@@ -1,0 +1,24 @@
+.bigger{
+    border: 2px solid black;
+    font-size: 30px;
+    width: 100%;
+    display: flex;
+}
+.smaller{
+    background-color: green;
+    width: 33.33%;
+    color: white;
+
+}
+@media (max-width : 457px){
+    .smaller{
+        background-color:red;
+        width:100%;
+        color: white;
+    display: block;
+
+}
+.bigger{
+    display: block;
+}
+}
