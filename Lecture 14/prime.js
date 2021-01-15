@@ -45,7 +45,3 @@ if (flag) {
 else {
     console.log(n,"is not prime") //Do not use semicolor if you prefer that
 }
-
-// Codes - cb.lk/dgb5web
-// Next session at 3:05 PM
-// You can leave if you want.
