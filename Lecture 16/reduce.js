@@ -12,6 +12,3 @@ let sum = arr.reduce(function (accumulatedValue, currentValue) {
 }, 10);
 
 console.log(sum);
-
-//You can leave if you want
-//Join the next session at 2 PM
