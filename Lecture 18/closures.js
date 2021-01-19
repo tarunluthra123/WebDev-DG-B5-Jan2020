@@ -24,6 +24,3 @@ console.log(increment());
 console.log(increment());
 console.log(increment());
 console.log(increment());
-
-// You can leave if you want
-// Join the next session at 2 PM
