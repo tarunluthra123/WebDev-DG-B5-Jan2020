@@ -1,0 +1,28 @@
+.red {
+    background-color: red;
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+}
+
+.blue{
+    background-color: blue;
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+}
+
+.green {
+    background-color: green;
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+}
+
+.container {
+    display:flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    background-color: antiquewhite;
+    width: 500px;
+}
