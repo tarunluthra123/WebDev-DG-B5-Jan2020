@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	background-color: aqua;
+}
+
+h1 {
+	text-align: center;
+	color: blue;
+	margin-top: 15px;
+}
+
+.calculator {
+	height: 500px;
+	width: 350px;
+	margin: auto;
+	position: relative;
+	top: 35px;
+}
+
+.result {
+	height: 100px;
+	background-color: #969696;
+	border-radius: 20px 20px 0 0;
+}
+
+#output {
+	text-align: right;
+	margin: 10px 20px;
+	/* margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	margin-right: 20px; */
+	padding-top: 40px;
+	font-size: 30px;
+}
+
+.keyboard {
+	height: 400px;
+	background-color: rgb(255, 253, 253);
+	margin: 0 auto;
+	border-radius: 0 0 20px 20px;
+}
+
+button,
+.empty {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	float: left;
+	margin: 15px;
+	border-width: 0;
+	font-size: 15px;
+	font-weight: bold;
+	color: black;
+}
+
+button {
+	background-color: rgb(234, 237, 239);
+	cursor: pointer;
+}
+
+button:active {
+	font-size: 13px;
+}
+
+button:focus {
+	outline: 0;
+}
+
+.operator {
+	color: white;
+}
+
+#plus {
+	background-color: blue;
+}
+#equal {
+	background-color: orange;
+}
+#minus {
+	background-color: violet;
+}
+#multiply {
+	background-color: red;
+}
+#divide {
+	background-color: green;
+}
+#modulo {
+	background-color: brown;
+}
+#clear,
+#backspace {
+	color: black;
+}
